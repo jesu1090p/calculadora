@@ -1,0 +1,67 @@
+body {
+    background-color: darkcyan;
+}
+h1 {
+    text-align: center;
+    font-family: "helvetica";
+    color: lightblue;
+    text-transform: uppercase;
+}
+label {
+    font-family: helvetica;
+    text-align: center;
+    
+    }
+button {
+    border-radius: 5px;
+    font-family: helvetica;
+    font-size: 1.5rem;
+    border: 2px solid lightcoral;
+    background-color: lightcoral;
+    color: #FFF;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+button:hover {
+    background-color: darkcyan;
+    border-color: d;
+}
+input {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+span {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    color: #333;
+    font-size: 2.2rem;
+    border-radius: 5px;
+}
+select {
+    font-size: 1.1rem;
+    text-align: center;
+}
+.main {
+    width: 300px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: lightblue;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.resultado {
+    display: flex;
+    justify-content: center;
+    font-family:helvetica;
+    font-size: 2rem;
+}

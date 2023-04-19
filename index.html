@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="favicon-calculadora.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1><br>
+    <div class="main">
+        <form>
+            <label>Numero 1</label><br><input type="number" id="n1"><br>
+            <label>Numero 2</label><br><input type="number" id="n2"><br>
+            <label for="operacion">Operación:</label>
+            <select id="operacion">
+            <option value="1">Suma</option>
+            <option value="2">Resta</option>
+            <option value="3">Multiplicación</option>
+            <option value="4">División</option>
+            </select><br>
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+    </div>
+    <div class="resultado">
+        <p id="res"></p>
+    </div>
+
+    <script type="text/javascript" src="operaciones.js"></script>
+</body>
+</html>

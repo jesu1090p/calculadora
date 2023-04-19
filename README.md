@@ -1,1 +1,2 @@
-# calculadora
+# Calculadora
+Calculadora basica usando javascript
